@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KARABULUT ÖZEL ÖĞRETİM KURSU</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #ff8c00; /* Turuncu */
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #3498db; /* Açık Mavi */
+      padding: 0.5em;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1em;
+      padding: 0.5em;
+    }
+
+    section {
+      padding: 1em;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 0.5em 0;
+      cursor: pointer;
+      border: 1px solid #000; /* Siyah */
+      padding: 0.5em;
+      background-color: #fff;
+      transition: background-color 0.3s;
+    }
+
+    li:hover {
+      background-color: #ecf0f1; /* Beyaz */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>KARABULUT ÖZEL ÖĞRETİM KURSU</h1>
+  </header>
+
+  <nav>
+    <a href="#">Anasayfa</a>
+    <a href="#">Kurumsal</a>
+    <a href="#">Online İşlemler</a>
+    <a href="#">İletişim</a>
+  </nav>
+
+  <section>
+    <h2>Hoş Geldiniz!</h2>
+    <p>KARABULUT ÖZEL ÖĞRETİM KURSU'na hoş geldiniz. Web sitemiz yapım aşamasındadır.</p>
+
+    <div id="courseDetails"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 KARABULUT ÖZEL ÖĞRETİM KURSU. Tüm hakları saklıdır.</p>
+  </footer>
+
+  <script>
+    function showCourseDetails(course) {
+      const detailsDiv = document.getElementById('courseDetails');
+      detailsDiv.innerHTML = `<p>Detaylar için ${course} kurs sayfasına gidin.</p>`;
+    }
+  </script>
+</body>
+</html>
